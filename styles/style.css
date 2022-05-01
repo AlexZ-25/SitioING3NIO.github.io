@@ -1,0 +1,55 @@
+body{
+    background: #4d4d52;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.navbar {
+    padding-top: 1rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 18px;
+}
+
+.me-auto {
+    margin-left: auto!important;
+}
+
+.container-main{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 3.3vmax;
+    padding-bottom: 3.3vmax;
+}
+
+.container-main .responsive{
+    width: 95%;
+    height: auto;
+    margin-left: 5%;
+}
+
+.texto-presentacion{
+    color: #fff;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 5%;
+}
+
+.texto-presentacion p{
+   font-size: calc((4 - 1) * 1.2vw + 1rem);
+}
+
+.texto-presentacion p1{
+    font-size: calc((1.5 - 1) * 1.2vw + 1rem);
+ }
+
+/* .imagen-podcast{
+    max-width: 100%;
+    height: auto;
+    margin-left: 5%;
+    background-image: url("./../assets/images/Logo Spotify.png");
+    background-size: 100%;
+
+} */
