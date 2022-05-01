@@ -17,23 +17,27 @@ body{
     margin-left: auto!important;
 }
 
+main{
+    color: #fff;
+}
+
 .container-main{
     display: grid;
     grid-template-columns: 50% 50%;
     padding-top: 3.3vmax;
-    padding-bottom: 3.3vmax;
+    padding-bottom: 3.3vmax;    
 }
 
 .container-main .responsive{
     width: 95%;
     height: auto;
-    margin-left: 5%;
+    margin-left: 5%;    
 }
 
 .texto-presentacion{
-    color: #fff;
+    
     margin-top: auto;
-    margin-bottom: auto;
+    /* margin-bottom: auto; */
     margin-left: 5%;
 }
 
@@ -41,9 +45,12 @@ body{
    font-size: calc((4 - 1) * 1.2vw + 1rem);
 }
 
-.texto-presentacion p1{
+.texto-presentacion2{
     font-size: calc((1.5 - 1) * 1.2vw + 1rem);
- }
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    text-align: justify;
+}
 
 /* .imagen-podcast{
     max-width: 100%;
