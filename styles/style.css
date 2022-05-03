@@ -1,5 +1,6 @@
 body{
-    background: #4d4d52;
+    /* background: #4d4d52; */
+    background: #fff;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
 }
@@ -9,7 +10,7 @@ body{
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #fff;
+    color: #19228c;
     font-size: 18px;
 }
 
@@ -18,7 +19,7 @@ body{
 }
 
 main{
-    color: #fff;
+    color: #19228c;
 }
 
 .container-main{
@@ -35,9 +36,8 @@ main{
 }
 
 .texto-presentacion{
-    
     margin-top: auto;
-    /* margin-bottom: auto; */
+    margin-bottom: auto;
     margin-left: 5%;
 }
 
@@ -46,10 +46,37 @@ main{
 }
 
 .texto-presentacion2{
-    font-size: calc((1.5 - 1) * 1.2vw + 1rem);
-    margin-left: 1.5%;
-    margin-right: 1.5%;
-    text-align: justify;
+    font-size: calc((1.6 - 1) * 1.2vw + 1rem);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+.quienes-somos{
+    background: #19228c;
+    display: block;
+    text-align: center;
+    padding: 1%;
+    color: #fff
+}
+
+.episodios{
+    background: #fff;
+    display: block;
+    text-align: center;
+    padding: 1%;
+    color: #19228c
+}
+
+article .texto-presentacion2{
+    margin-top: 1%;
+}
+
+article video{
+    width: 95%;
+    height: auto;
+    /* max-width: "930"; */
 }
 
 /* .imagen-podcast{
