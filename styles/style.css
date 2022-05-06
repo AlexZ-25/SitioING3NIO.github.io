@@ -137,10 +137,30 @@ article .texto-presentacion2{
     margin-top: 1%;
     margin-bottom: 1%;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 34% 66%;
 }
 
 .list-group{
     height:200px; width:100%;
     overflow:hidden; overflow-y:scroll;
 }
+
+.video-responsive {
+	height: 0;
+	overflow: hidden;
+	padding-bottom: 50%;
+	padding-top: 30px;
+	position: relative;
+	}
+.video-responsive iframe, .video-responsive object, .video-responsive embed {
+	height: 80%;
+	left: 10%;
+	position: absolute;
+	top: 0;
+	width: 80%;
+	}
+
+    .modal-body{
+        display: flex;
+        justify-content: space-evenly;
+    }
