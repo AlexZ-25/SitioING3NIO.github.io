@@ -78,7 +78,7 @@ main{
     text-align: center;
 }
 
-.quienes-somos{
+.container-blue{
     background: #19228c;
     display: block;
     text-align: center;
@@ -86,7 +86,7 @@ main{
     color: #fff
 }
 
-article video{
+section video{
     width: 95%;
     height: auto;
 }
@@ -121,7 +121,7 @@ article video{
     border-radius: 100%;
 }
 
-.episodios{
+.container-white{
     background: #fff;
     display: block;
     text-align: center;
@@ -129,7 +129,7 @@ article video{
     color: #19228c
 }
 
-article .texto-presentacion2{
+section .texto-presentacion2{
     margin-top: 1%;
 }
 
@@ -137,6 +137,7 @@ article .texto-presentacion2{
     margin-top: 1%;
     margin-bottom: 1%;
     display: grid;
+    justify-items: center;
     grid-template-columns: 34% 66%;
 }
 
