@@ -165,3 +165,14 @@ section .texto-presentacion2{
         display: flex;
         justify-content: space-evenly;
     }
+
+    /*#######MEDIA QUERIES#######*/
+
+    @media (max-width: 600px){
+        .panel-episodios{
+            display: block;
+        }
+        .panel-episodios iframe{
+            margin-top: 2%;
+        }
+    }

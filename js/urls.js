@@ -291,11 +291,8 @@ sp = [
 
 // Replaces 
 function repSp(Id) {
-    // const arrayName = String(Id).substring(0, 4);
-    // Id = String(Id).substring(5);
     const auxObj = sp.filter(episodio => episodio.Id == Id);
-    var block = document.querySelector(".selector");
-    block.outerHTML = '<iframe style="border-radius:12px"' + block.innerHTML + 'picture-in-picture"></iframe>';
-    block.outerHTML.replace('{{episode}}', auxObj[0].URL);
-    // document.body.innerHTML = document.body.innerHTML.replace('{{episode}}', auxObj[0].URL);
+    const regEx = /(?<=episode\/).*?(?=\?utm)/g;
+    document.body.innerHTML = document.body.innerHTML.replace(regEx, auxObj[0].URL);
+    // console.log(auxObj[0].URL);
 }
