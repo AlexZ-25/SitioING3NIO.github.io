@@ -141,6 +141,15 @@ section .texto-presentacion2{
     grid-template-columns: 34% 66%;
 }
 
+#episodios iframe{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#episodios #actual{
+    margin-bottom: 1%;
+}
+
 .list-group{
     height:200px; width:100%;
     overflow:hidden; overflow-y:scroll;
@@ -165,6 +174,20 @@ section .texto-presentacion2{
         display: flex;
         justify-content: space-evenly;
     }
+
+#contacto p{
+    font-size: calc((1.6 - 1) * 1.2vw + 1rem);
+}
+
+footer{
+    display: block!important;
+    padding: 1%!important;
+}
+
+footer span a{
+    display: flex;
+    margin-left: 1%;
+}
 
     /*#######MEDIA QUERIES#######*/
 
