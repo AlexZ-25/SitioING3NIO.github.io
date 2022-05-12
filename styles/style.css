@@ -190,10 +190,11 @@ footer{
     padding: 1%!important;
 }
 
-footer span a{
-    display: flex;
-    margin-left: 1%;
+footer p{
+    margin-top: 2%;
 }
+
+
 
 /* Instagram followers count */
 
