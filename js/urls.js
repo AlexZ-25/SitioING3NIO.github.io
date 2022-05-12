@@ -170,87 +170,87 @@ sp = [
     {
         "Id": 'T1E4',
         "Nombre": 'DMAIC - Definir',
-        "URL": '',
+        "URL": '6yb7xDvITTbmWxedc3fhIp',
     },
     {
         "Id": 'T1E5',
         "Nombre": 'DMAIC - Medir',
-        "URL": '',
+        "URL": '6rLRCZQO7YGa9ICwZusWuX',
     },
     {
         "Id": 'T1E6',
         "Nombre": 'DMAIC - Analizar',
-        "URL": '',
+        "URL": '2DYHddXendx8VAkl44uwSl',
     },
     {
         "Id": 'T1E7',
         "Nombre": 'DMAIC - Mejorar',
-        "URL": '',
+        "URL": '4cGCBiWUiOf13XuXKqhX8w',
     },
     {
         "Id": 'T1E8',
         "Nombre": 'DMAIC - Control',
-        "URL": '',
+        "URL": '762QwSu7iKBaonpMfaKvrv',
     },
     {
         "Id": 'T1E9',
         "Nombre": 'Hablemos de Industria 4.0',
-        "URL": '',
+        "URL": '0o45QMpGIfAzPSNkcYdQgR',
     },
     {
         "Id": 'T1E10',
         "Nombre": "Indicadores de Desempeño (KPI's)",
-        "URL": '',
+        "URL": '7nDZwdHthb16OxOdv2IPnF',
     },
     {
         "Id": 'T1E11',
         "Nombre": '¿El Límite de la Mejora Continua? (Costo-Tiempo-Calidad)',
-        "URL": '',
+        "URL": '6fRfEVzAiCS19k0dPYdycc',
     },
     {
         "Id": 'T1E12',
         "Nombre": 'Finanzas Personales / Empresariales y Mejora Continua',
-        "URL": '',
+        "URL": '53B9oWi1I2e8SWZU43wVMn',
     },
     {
         "Id": 'T1E13',
         "Nombre": 'Liderazgo y Mejora Continua',
-        "URL": '',
+        "URL": '0oazHzczozqfhTcJXg5Uzu',
     },
     {
         "Id": 'T1E14',
         "Nombre": 'Logística y Cadena de Suministro',
-        "URL": '',
+        "URL": '1xojP5rccThncZsg8CD0wX',
     },
     {
         "Id": 'T1E15',
         "Nombre": 'Las 7 Herramientas Básicas de Calidad',
-        "URL": '',
+        "URL": '1PQWmWBmdTfvZnm6HmgvN0',
     },
     {
         "Id": 'T1E16',
         "Nombre": 'Administración de Inventario',
-        "URL": '',
+        "URL": '4HnDukFmo9gfQ4HRJmpYtE',
     },
     {
         "Id": 'T1E17',
         "Nombre": 'Tips para Conseguir tu Primer Empleo',
-        "URL": '',
+        "URL": '3R0JbDbk5ARnplM3qnozUB',
     },
     {
         "Id": 'T1E18',
         "Nombre": 'Los 8 Desperdicios',
-        "URL": '',
+        "URL": '3GrjjTRbEJbxPkc7B8NST3',
     },
     {
         "Id": 'T1E19',
         "Nombre": 'Inteligencia Artificial',
-        "URL": '',
+        "URL": '3bcMJIqZ9BMaRQP3riz0Lo',
     },
     {
         "Id": 'T1E20',
         "Nombre": '4 Libros de Mejora Continua',
-        "URL": '',
+        "URL": '0syZgCLlIhBCJVHqGP2gPS',
     },
     {
         "Id": 'T2E1',
@@ -296,3 +296,6 @@ function repSp(Id) {
     document.body.innerHTML = document.body.innerHTML.replace(regEx, auxObj[0].URL);
     // console.log(auxObj[0].URL);
 }
+
+
+// Instagram followers

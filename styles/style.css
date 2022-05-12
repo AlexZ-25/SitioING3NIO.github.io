@@ -19,9 +19,10 @@ body{
 }
 
 .title{
-    margin: 0 auto;
+    margin: auto;
     display: flex;
     justify-content: center;
+    padding: 2%;
 }
 
 .linea {
@@ -147,7 +148,7 @@ section .texto-presentacion2{
 }
 
 #episodios #actual{
-    margin-bottom: 1%;
+    margin-bottom: 3%;
 }
 
 .list-group{
@@ -170,10 +171,15 @@ section .texto-presentacion2{
 	width: 80%;
 	}
 
-    .modal-body{
-        display: flex;
-        justify-content: space-evenly;
-    }
+.modal-body{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.carousel-caption{
+    color: #19228c;
+    /* -webkit-text-stroke: 0.1px #fff; */
+}
 
 #contacto p{
     font-size: calc((1.6 - 1) * 1.2vw + 1rem);
@@ -188,6 +194,9 @@ footer span a{
     display: flex;
     margin-left: 1%;
 }
+
+/* Instagram followers count */
+
 
     /*#######MEDIA QUERIES#######*/
 
