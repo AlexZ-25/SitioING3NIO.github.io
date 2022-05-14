@@ -55,7 +55,7 @@ main{
     padding-bottom: 3.3vmax;    
 }
 
-.container-main .responsive{
+.responsive{
     width: 95%;
     height: auto;
     margin-left: 5%;    
@@ -106,7 +106,7 @@ section video{
     filter: invert(100%);
 }
 
-.logos-negativo a{
+section .logos-negativo a{
     margin-left: 2%;
 }
 
@@ -136,7 +136,7 @@ section .texto-presentacion2{
 
 .panel-episodios{
     margin-top: 1%;
-    margin-bottom: 1%;
+    margin-bottom: 3%;
     display: grid;
     justify-items: center;
     grid-template-columns: 34% 66%;
@@ -156,25 +156,23 @@ section .texto-presentacion2{
     overflow:hidden; overflow-y:scroll;
 }
 
-.video-responsive {
-	height: 0;
-	overflow: hidden;
-	padding-bottom: 50%;
-	padding-top: 30px;
-	position: relative;
-	}
-.video-responsive iframe, .video-responsive object, .video-responsive embed {
-	height: 80%;
-	left: 10%;
-	position: absolute;
-	top: 0;
-	width: 80%;
-	}
-
 .modal-body{
     display: flex;
     justify-content: space-evenly;
 }
+
+.plataformas{
+    display: flex!important;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.responsive2{
+    /* width: 15%;
+    height: auto; */
+    margin-left: 3%;    
+}
+
 
 .carousel-caption{
     color: #19228c;
