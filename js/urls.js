@@ -286,6 +286,11 @@ sp = [
         "Id": 'T2E7',
         "Nombre": 'Hablemos de Blockchain',
         "URL": '4d1KC18N58lwmO2jYuWOCc',
+    },
+    {
+        "Id": 'T2E8',
+        "Nombre": 'La Adopción de Modelos Híbridos y la Importancia del “Lado Humano” del Empleo',
+        "URL": '2oiFtjtITIXRoJSi7OaHDZ',
     }
 ];
 
