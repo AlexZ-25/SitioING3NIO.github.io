@@ -192,12 +192,28 @@ footer p{
     margin-top: 3%;
 }
 
+/*####### CRUD Styles #######*/
+
+form .mb-3{
+    margin-left: 3%;
+}
+
+.texto-presentacion3{
+    font-size: calc((1.3 - 1) * 1.2vw + 1rem);
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 4%;
+    text-align: center;
+}
+
+select{
+    width: 95%;
+}
 
 
-/* Instagram followers count */
 
 
-    /*#######MEDIA QUERIES#######*/
+/*#######MEDIA QUERIES#######*/
 
     @media (max-width: 600px){
         .panel-episodios{
